@@ -1,2 +1,11 @@
 server:
   port: 8080
+dubbo:
+  application:
+    name: student_web
+  registry:
+    address: zookeeper://49.234.130.191:2181
+  consumer:
+    check: false
+  protocol:
+    port: -1
